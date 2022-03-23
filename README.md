@@ -1,18 +1,20 @@
-# happyGo电商后台管理系统
+# happyGo 电商后台管理系统
 
 ### 技术栈
+
 ```js
 vue2
 vuex
 less
 axios
-vue-router
-element-ui
-vue-cropper
-vue-quill-editor
+vue - router
+element - ui
+vue - cropper
+vue - quill - editor
 ```
 
 ### 安装项目依赖
+
 ```js
 npm install // 安装前端依赖
 cd server
@@ -20,6 +22,7 @@ npm install // 安装后端依赖
 ```
 
 ### 运行项目
+
 ```js
 npm run server //运行前端项目
 cd server
@@ -33,7 +36,7 @@ npm start // 运行后端项目
 - 登录、注册 -- 完成
 - 登陆图片滑动验证 -- 完成
 - 个人中心 -- 完成
-- 编辑/上传头像 -- 完成 
+- 编辑/上传头像 -- 完成
 - 登出 -- 完成
 
 #### 用户管理模块
@@ -73,7 +76,7 @@ npm start // 运行后端项目
 - 商品参数
 - 商品属性
 - 商品图片
-- 使用vue-quill-editor对商品类容的编辑
+- 使用 vue-quill-editor 对商品类容的编辑
 
 ##### 分类参数
 
@@ -98,7 +101,7 @@ npm start // 运行后端项目
 
 #### 数据统计模块
 
-- 借助echarts通过图形的形式展示数据
+- 借助 echarts 通过图形的形式展示数据
 
 #### 权限管理模块
 
@@ -106,63 +109,63 @@ npm start // 运行后端项目
 
 #### 视口响应式模块
 
-- 监听resize事件，窗口发生改变时动态渲染侧边栏状态
+- 监听 resize 事件，窗口发生改变时动态渲染侧边栏状态
 
 ### 部分截图
 
 #### 登陆页面
 
-![](/images/01.png)
+https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/b372f863-70f2-4887-9cbb-e7bec812c70d.png
+https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/dc760f51-bdfc-49e5-b7f7-fddc7cd46441.png
+https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/28244b95-0ef2-423a-ba2e-6a35d832c075.png
+https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/fe0f7de8-2159-4b74-946d-c54335c301ac.png
 
-![](/images/02.png)
+<img style="width:100%; margin-top:10px; border-radius: 1px solid red;" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/e93ec038-4d56-47e4-bc29-ea23487ea08f.png" alt="">
 
-![](/images/03.png)
+<img style="width:100%; margin-top:10px; border-radius: 1px solid red;" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/5a8470a8-b285-4021-8656-7082f1b8dbd3.png" alt="">
 
-![](/images/04.png)
+<img style="width:100%; margin-top:10px; border-radius: 1px solid red;" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/5c437b11-8b8d-4845-b408-1ef0cbba405c.png" alt="">
+
+<img style="width:100%; margin-top:10px; border-radius: 1px solid red;" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/d423946e-ef77-4c13-9657-3831dbb3cec3.png" alt="">
 
 #### 用户管理
 
-![](/images/05.png)
+<img style="width:100%; margin-top:10px; border-radius: 1px solid red;" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/596979b4-e69f-4017-91be-003cf782b168.png" alt="">
 
 #### 权限管理
 
 ##### 角色列表
 
-![](/images/06.png)
+<img style="width:100%; margin-top:10px; border-radius: 1px solid red;" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/0aa7653a-7a55-406f-bc13-b6c9d061372a.png" alt="">
 
 ##### 权限列表
 
-![](/images/07.png)
+<img style="width:100%; margin-top:10px; border-radius: 1px solid red;" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/2094f4c2-1aa3-4c64-937e-d0ed3dfb4e73.png" alt="">
 
 #### 商品管理
 
 ##### 添加商品
 
-![](/images/08.png)
+<img style="width:100%; margin-top:10px; border-radius: 1px solid red;" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/489e3943-5e4c-4821-8399-dccafc089618.png" alt="">
 
 ##### 商品列表
 
-![](/images/09.png)
+<img style="width:100%; margin-top:10px; border-radius: 1px solid red;" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/07d78b06-641c-4ab9-9130-4d48b809bad9.png" alt="">
 
 ##### 商品参数
 
-![](/images/10.png)
+<img style="width:100%; margin-top:10px; border-radius: 1px solid red;" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/798c0441-6432-4206-82a4-982689e5ec4a.png" alt="">
 
-![](/images/11.png)
+<img style="width:100%; margin-top:10px; border-radius: 1px solid red;" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/5580378c-e2ef-4962-8dcf-03255c766949.png" alt="">
 
 ##### 商品分类
 
-![](/images/12.png)
+<img style="width:100%; margin-top:10px; border-radius: 1px solid red;" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/02ddaef1-ac9f-4524-a094-714a2e4a27ed.png" alt="">
 
 #### 订单管理
 
-![](/images/13.png)
+<img style="width:100%; margin-top:10px; border-radius: 1px solid red;" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/b51516c4-aa20-4b2b-aaeb-e5656a55a173.png" alt="">
 
 #### 数据统计
 
-![](/images/14.png)
-
-
-
-
-
+<img style="width:100%; margin-top:10px; border-radius: 1px solid red;" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-e3306813-c467-4fe2-a5b0-4f80a8d3051e/b123a172-f06f-4a25-8d94-f2628c53b962.png" alt="">
